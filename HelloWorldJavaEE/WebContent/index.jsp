@@ -9,7 +9,7 @@
 </head>
 <body>
  
-    <h1>Hello JSP and Servlet!</h1>
+    <h1>Try our web calculator here :</h1>
 <form action="nameServlet" method="post">
     number1: <input type="text" name="number1" size="20"><br>
     number2: <input type="text" name="number2" size="20"><br>
