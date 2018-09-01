@@ -47,6 +47,7 @@ public class HelloServlet extends HttpServlet {
 		String number2 = request.getParameter("number2");
 		String func = request.getParameter("function");
 		
+		
 		int results=0;
 		
 		switch (func) {
