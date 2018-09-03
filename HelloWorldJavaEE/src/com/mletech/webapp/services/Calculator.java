@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 public class Calculator {
 	
 	Client client = ClientBuilder.newClient();
-	String urlString = "http://localhost:9080/com.mltech.webservice/rest/webcal/";
+	String urlString = "http://localhost:9080/WebCalWS/rest/webcal/";
 
 	public int add(int a, int b) {
 		

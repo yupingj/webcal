@@ -18,7 +18,7 @@ public class CalculatorTest {
 			assertEquals(2, cal.add(1, 1));
 
 		} catch (Exception e) {
-			fail("Not yet implemented");
+			e.printStackTrace();;
 		}
 
 	}
@@ -31,7 +31,7 @@ public class CalculatorTest {
 			assertEquals(0, cal.minus(2, 2));
 
 		} catch (Exception e) {
-			fail("Not yet implemented");
+			e.printStackTrace();;
 		}
 
 	}
