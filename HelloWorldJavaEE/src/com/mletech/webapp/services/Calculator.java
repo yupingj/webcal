@@ -21,7 +21,13 @@ public class Calculator {
 	}
 
 	public int minus(int a, int b) {
-		return a - b;
+		Client client = ClientBuilder.newClient();
+		  WebTarget target = client.target(urlString);	
+		  		  
+		  String result = target.path("/minus/"+String.valueOf(a)+"/"+String.valueOf(b)).request(MediaType.TEXT_PLAIN).get(String.class);
+		
+		return Integer.parseInt(result);
+		
 	}
 
 	public int times(int a, int b) {
